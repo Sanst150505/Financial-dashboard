@@ -1,0 +1,56 @@
+.summary-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-strong);
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--border-strong));
+}
+
+.summary-card__label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.summary-card__value {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.summary-card__change {
+  font-size: 12px;
+}
+
+.summary-card__change--up {
+  color: #10b981;
+}
+
+.summary-card__change--down {
+  color: #f43f5e;
+}
+
+.color-balance {
+  color: var(--accent);
+}
+
+.color-income {
+  color: #10b981;
+}
+
+.color-expense {
+  color: #f43f5e;
+}
+
+.color-savings {
+  color: #8b5cf6;
+}

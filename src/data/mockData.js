@@ -1,0 +1,47 @@
+export const initialTransactions = [
+  { id: 1, date: "2025-11-01", desc: "Monthly Salary", amount: 72000, cat: "Income", type: "income" },
+  { id: 2, date: "2025-11-03", desc: "Apartment Rent", amount: -18000, cat: "Housing", type: "expense" },
+  { id: 3, date: "2025-11-08", desc: "Groceries", amount: -4200, cat: "Food", type: "expense" },
+  { id: 4, date: "2025-11-12", desc: "Electricity Bill", amount: -1900, cat: "Utilities", type: "expense" },
+  { id: 5, date: "2025-12-01", desc: "Monthly Salary", amount: 72000, cat: "Income", type: "income" },
+  { id: 6, date: "2025-12-10", desc: "Freelance Design", amount: 12000, cat: "Income", type: "income" },
+  { id: 7, date: "2025-12-15", desc: "Holiday Shopping", amount: -4800, cat: "Entertainment", type: "expense" },
+  { id: 8, date: "2025-12-18", desc: "Fuel", amount: -2400, cat: "Transport", type: "expense" },
+  { id: 9, date: "2026-01-01", desc: "Monthly Salary", amount: 74000, cat: "Income", type: "income" },
+  { id: 10, date: "2026-01-05", desc: "Rent Payment", amount: -18000, cat: "Housing", type: "expense" },
+  { id: 11, date: "2026-01-14", desc: "Medical Checkup", amount: -2200, cat: "Health", type: "expense" },
+  { id: 12, date: "2026-01-22", desc: "Restaurant Dinner", amount: -1800, cat: "Food", type: "expense" },
+  { id: 13, date: "2026-02-01", desc: "Monthly Salary", amount: 74000, cat: "Income", type: "income" },
+  { id: 14, date: "2026-02-07", desc: "Performance Bonus", amount: 15000, cat: "Income", type: "income" },
+  { id: 15, date: "2026-02-11", desc: "Internet Bill", amount: -999, cat: "Utilities", type: "expense" },
+  { id: 16, date: "2026-02-26", desc: "Cinema Night", amount: -900, cat: "Entertainment", type: "expense" },
+  { id: 17, date: "2026-03-01", desc: "Monthly Salary", amount: 76000, cat: "Income", type: "income" },
+  { id: 18, date: "2026-03-04", desc: "Supermarket", amount: -5100, cat: "Food", type: "expense" },
+  { id: 19, date: "2026-03-09", desc: "Metro Pass", amount: -1600, cat: "Transport", type: "expense" },
+  { id: 20, date: "2026-03-18", desc: "Pharmacy", amount: -850, cat: "Health", type: "expense" },
+  { id: 21, date: "2026-04-01", desc: "Monthly Salary", amount: 76000, cat: "Income", type: "income" },
+  { id: 22, date: "2026-04-02", desc: "Rent Payment", amount: -18500, cat: "Housing", type: "expense" },
+  { id: 23, date: "2026-04-03", desc: "Project Payout", amount: 16000, cat: "Income", type: "income" },
+  { id: 24, date: "2026-04-04", desc: "Grocery Store", amount: -4300, cat: "Food", type: "expense" },
+  { id: 25, date: "2026-04-04", desc: "Streaming Subscription", amount: -249, cat: "Entertainment", type: "expense" },
+];
+
+export const CATEGORIES = [
+  "Food",
+  "Housing",
+  "Transport",
+  "Health",
+  "Entertainment",
+  "Utilities",
+  "Income",
+];
+
+export const CHART_COLORS = [
+  "#6c8aff",
+  "#34d399",
+  "#fbbf24",
+  "#f87171",
+  "#2dd4bf",
+  "#a78bfa",
+  "#94a3b8",
+];
