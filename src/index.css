@@ -387,7 +387,8 @@ button {
 }
 
 .profile-trigger {
-  display: inline-flex;
+  display: inline-grid;
+  grid-template-columns: 28px auto 13px;
   align-items: center;
   gap: 10px;
   height: 42px;
@@ -414,19 +415,26 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  line-height: 1.15;
+  justify-content: center;
+  line-height: 1.05;
+  min-width: 0;
+  text-align: left;
 }
 
 .profile-trigger__text strong {
+  display: block;
   color: var(--text-primary);
   font-size: 0.83rem;
   font-weight: 700;
+  line-height: 1.05;
 }
 
 .profile-trigger__text span {
+  display: block;
   color: var(--text-muted);
   font-size: 0.68rem;
-  margin-top: 1px;
+  margin-top: 2px;
+  line-height: 1;
 }
 
 .profile-trigger__chevron {

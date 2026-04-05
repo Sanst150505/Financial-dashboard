@@ -202,14 +202,22 @@
 
 .numeric-cell {
   text-align: right;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+
+.tx-table th.numeric-cell {
+  text-align: right;
+  padding-right: 20px;
 }
 
 .actions-cell {
-  text-align: center;
+  text-align: left;
 }
 
 .amount-cell {
   font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .amount-cell.positive {
@@ -317,6 +325,7 @@
 .table-actions {
   display: inline-flex;
   gap: 8px;
+  justify-content: flex-start;
 }
 
 .btn-inline {

@@ -18,10 +18,10 @@ const NAV_SUPPORT = [
 
 function getStoredTheme() {
   if (typeof window === "undefined") {
-    return "light";
+    return "dark";
   }
 
-  return window.localStorage.getItem("financial-dashboard-theme") || "light";
+  return window.localStorage.getItem("financial-dashboard-theme") || "dark";
 }
 
 function ThemeIcon({ theme }) {
