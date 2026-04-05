@@ -172,6 +172,9 @@ export default function App() {
       <main className="main-area">
         <header className="topbar">
           <div className="topbar-left">
+            <button className="icon-button menu-button" onClick={() => setSidebarOpen(true)}>
+              <MenuIcon />
+            </button>
             <h1 className="topbar-title">Overview</h1>
           </div>
 
@@ -239,10 +242,6 @@ export default function App() {
                 </div>
               )}
             </div>
-
-            <button className="icon-button menu-button" onClick={() => setSidebarOpen(true)}>
-              <MenuIcon />
-            </button>
           </div>
         </header>
 
