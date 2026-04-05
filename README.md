@@ -21,19 +21,20 @@ The app is intentionally built with mock data and local state because the assign
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](./public/dashboard-overview1.png) 
-(./public/dashboard-overview2.png)
-(./public/dashboard-overview3.png)
+![Dashboard Overview 1](./public/dashboard-overview1.png)
+![Dashboard Overview 2](./public/dashboard-overview2.png)
+![Dashboard Overview 3](./public/dashboard-overview3.png)
 
 ### Transactions View
-![Transactions View](./public/transactions-view.png) 
+![Transactions View](./public/transactions-view.png)
 
 ### Mobile View
-![Mobile View](./public/mobileview1.png)
-(./public/mobileview2.png)
-(./public/mobileview3.png)
-(./public/mobileview4.png)
-(./public/mobileview5.png)
+![Mobile View 1](./public/mobileview1.jpeg
+)
+![Mobile View 2](./public/mobileview2.jpeg)
+![Mobile View 3](./public/mobileview3.jpeg)
+![Mobile View 4](./public/mobileview4.jpeg)
+![Mobile View 5](./public/mobileview5.jpeg)
 
 ## Approach
 
