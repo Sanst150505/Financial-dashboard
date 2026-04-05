@@ -454,6 +454,10 @@
     padding: 12px 8px 4px;
   }
 
+  .chart-card--wide .axis-chart {
+    min-height: 165px;
+  }
+
   .expense-pie-layout {
     flex-direction: column;
     align-items: center;
