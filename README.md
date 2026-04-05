@@ -33,11 +33,13 @@ The app is intentionally built with mock data and local state because the assign
 ### Mobile View
 
 <p>
-  <img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="180" />
-  <img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="180" />
-  <img src="./public/mobileview3.jpeg" alt="Mobile View 3" width="180" />
-  <img src="./public/mobileview4.jpeg" alt="Mobile View 4" width="180" />
-  <img src="./public/mobileview5.jpeg" alt="Mobile View 5" width="180" />
+  <img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="180" style="margin-right: 10px;" />
+
+  <img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="180" style="margin-right: 10px;" />
+
+  <img src="./public/mobileview3.jpeg" alt="Mobile View 3" width="180" style="margin-right: 10px;" />
+
+  <img src="./public/mobileview5.jpeg" alt="Mobile View 5" width="180" style="margin-right: 10px;" />
 </p>
 ## Approach
 
