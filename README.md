@@ -30,9 +30,15 @@ The app is intentionally built with mock data and local state because the assign
 ### Transactions View
 <img src="./public/transactions-view.png" alt="Transactions View" width="700" />
 
-### Mobile View 
-<img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="220" />    <img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="220" />        <img src="./public/mobileview3.jpeg" alt="Mobile View 3" width="220" />        <img src="./public/mobileview5.jpeg" alt="Mobile View 5" width="220" />
+### Mobile View
 
+<p>
+  <img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="180" />
+  <img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="180" />
+  <img src="./public/mobileview3.jpeg" alt="Mobile View 3" width="180" />
+  <img src="./public/mobileview4.jpeg" alt="Mobile View 4" width="180" />
+  <img src="./public/mobileview5.jpeg" alt="Mobile View 5" width="180" />
+</p>
 ## Approach
 
 The dashboard was built with a component-based React structure and a simple, well-scoped state management approach.
