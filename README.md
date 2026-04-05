@@ -31,9 +31,7 @@ The app is intentionally built with mock data and local state because the assign
 <img src="./public/transactions-view.png" alt="Transactions View" width="700" />
 
 ### Mobile View
-<img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="220" />
-
-<img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="220" />
+<img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="220" />    <img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="220" />
 
 <img src="./public/mobileview3.jpeg" alt="Mobile View 3" width="220" />
 
