@@ -175,7 +175,9 @@ export default function App() {
             <button className="icon-button menu-button" onClick={() => setSidebarOpen(true)}>
               <MenuIcon />
             </button>
-            <h1 className="topbar-title">Overview</h1>
+            <h1 className="topbar-title">
+              {page === "transactions" ? "Transactions" : "Overview"}
+            </h1>
           </div>
 
           <div className="topbar-right">
