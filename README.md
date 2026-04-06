@@ -21,101 +21,53 @@ The app is intentionally built with mock data and local state because the assign
 ## Screenshots
 
 ### Dashboard Overview
-<img src="./public/dashboard-overview1.png" alt="Dashboard Overview 1" width="700" />
-
-<img src="./public/dashboard-overview2.png" alt="Dashboard Overview 2" width="700" />
-
-<img src="./public/dashboard-overview3.png" alt="Dashboard Overview 3" width="700" />
+<img src="./public/dashboard-overview1.png" width="700" />
+<img src="./public/dashboard-overview2.png" width="700" />
+<img src="./public/dashboard-overview3.png" width="700" />
 
 ### Transactions View
-<img src="./public/transactions-view.png" alt="Transactions View" width="700" />
+<img src="./public/transactions-view.png" width="700" />
 
 ### Mobile View
-
 <p>
-  <img src="./public/mobileview1.jpeg" alt="Mobile View 1" width="180" style="margin-right: 10px;" />
-
-  <img src="./public/mobileview2.jpeg" alt="Mobile View 2" width="180" style="margin-right: 10px;" />
-
-  <img src="./public/mobileview3.jpeg" alt="Mobile View 3" width="180" style="margin-right: 10px;" />
-
-  <img src="./public/mobileview5.jpeg" alt="Mobile View 5" width="180" style="margin-right: 10px;" />
+  <img src="./public/mobileview1.jpeg" width="180" />
+  <img src="./public/mobileview2.jpeg" width="180" />
+  <img src="./public/mobileview3.jpeg" width="180" />
+  <img src="./public/mobileview5.jpeg" width="180" />
 </p>
+
 ## Approach
 
-The dashboard was built with a component-based React structure and a simple, well-scoped state management approach.
-
-- `App.jsx` manages the shell layout, active page, selected role, theme, and shared transaction actions.
-- `useTransactions.js` handles transaction state and local storage persistence.
-- `Dashboard.jsx` computes derived values such as total balance, expense categories, recent activity, and monthly insights from transaction data.
-- Charts are split into dedicated components under `src/components/Charts/` for better readability and modularity.
-- The transactions section is organized separately so filtering, sorting, searching, and CRUD UI remain isolated from the dashboard summary view.
-
-This keeps the code straightforward for a frontend assignment while still being scalable enough for future additions like API integration or export features.
+- `App.jsx` manages layout, role, theme, and navigation
+- `useTransactions.js` handles state + local storage
+- `Dashboard.jsx` computes insights
+- Charts are modular components
+- Transactions logic is isolated
 
 ## Features
 
-### 1. Dashboard Overview
+### Dashboard Overview
+- Summary cards
+- Cashflow chart
+- Expense pie chart
 
-- Summary cards for total balance, income, expenses, and tracked transactions
-- Time-based cashflow trend chart
-- Category-based expense pie chart
-- Additional monthly comparison and category spend visualizations
+### Transactions
+- Search, filter, sort
+- CRUD (Admin only)
 
-### 2. Transactions Section
+### Role-Based UI
+- Viewer → read-only
+- Admin → full access
 
-- Transaction list with:
-  - date
-  - description
-  - category
-  - type
-  - amount
-- Search by date, description, or category
-- Filter by type and category
-- Sort by newest, oldest, highest amount, lowest amount, or category
+### Insights
+- Highest spend category
+- Monthly trends
+- Avg category spend
 
-### 3. Role-Based UI
-
-- `Viewer` mode is read-only
-- `Admin` mode can add, edit, and delete transactions
-- Role can be switched from the profile dropdown for demo purposes
-
-### 4. Insights Section
-
-- Highest spending category
-- Month-over-month spending observation
-- Average category spend
-
-### 5. State Management
-
-- React state for UI interactions
-- Custom hook for transaction management
-- Local storage persistence for transactions and theme preference
-
-### 6. UI and UX
-
-- Responsive layout for desktop, tablet, and mobile
-- Sidebar drawer on smaller screens
-- Dark and light theme support
-- Empty states and read-only hints
-- Subtle chart and interface animations
-
-## Design Decisions
-
-A few intentional choices shaped this project:
-
-- I used mock data and frontend-only role switching because the assignment did not require backend integration.
-- I focused on clarity, responsiveness, and UI polish instead of adding unnecessary complexity.
-- I split major UI sections into reusable components so the code stays easier to maintain and explain.
-- I used custom chart components to keep the design aligned with the rest of the interface and avoid unnecessary dependency overhead.
-
-## Tradeoffs
-
-To keep the project focused and aligned with the assignment scope:
-
-- Role-based access is simulated on the frontend only.
-- Data is persisted using local storage instead of a backend.
-- Some navigation items are lightweight placeholders for UI completeness rather than fully implemented pages.
+### UI/UX
+- Responsive design
+- Dark/light mode
+- Animations
 
 ## Tech Stack
 
@@ -130,62 +82,54 @@ To keep the project focused and aligned with the assignment scope:
 src/
   assets/
   components/
-    Charts/
-    Common/
-    Dashboard/
-    Transactions/
   data/
   hooks/
   pages/
   utils/
-  App.jsx
-  main.jsx
-  index.css
 ```
+# ==============================
+# Setup Instructions
+# ==============================
 
-## Setup Instructions
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Sanst150505/Financial_dashboard.git
+```git clone https://github.com/Sanst150505/Financial_dashboard.git
 cd Financial_dashboard
-```
-
-### 2. Install dependencies
-
-```bash
 npm install
-```
-
-### 3. Start the development server
-
-```bash
 npm run dev
-```
-
-### 4. Build for production
-
-```bash
 npm run build
 ```
 
-## Notes and Assumptions
+# ==============================
+# Notes and Assumptions
+# ==============================
 
-- The project uses mock financial data and frontend-only role switching.
-- Currency formatting is adapted for Indian Rupees (`INR`).
-- The interface is designed as an assignment/demo project, not a production financial product.
+# - Uses mock data
+# - Frontend-only role switching
+# - INR currency formatting
+# - Demo project (not production)
 
-## Possible Improvements
+# ==============================
+# Possible Improvements
+# ==============================
 
-Given more time, I would extend this project with:
+# - Add backend (API persistence)
+# - Export CSV/JSON
+# - Advanced analytics
+# - Toast notifications
+# - Unit testing
 
-- API-backed transaction persistence
-- Export to CSV or JSON
-- More advanced analytics and grouping
-- Inline notifications/toasts for user actions
-- Unit tests for filters, calculations, and transaction flows
+# ==============================
+# Why This Meets the Assignment
+# ==============================
 
-## Why This Meets the Assignment
+# Covers:
+# - Dashboard
+# - Transactions
+# - Role-based UI
+# - Insights
+# - State management
+# - Responsive design
 
-This submission covers the required dashboard overview, transaction exploration, role-based UI behavior, insights, state management, responsiveness, and documentation. It also includes optional enhancements such as theme support, local storage persistence, and transitions for a more polished experience.
+# Extras:
+# - Dark/light theme
+# - Local storage
+# - Smooth UI transitions
