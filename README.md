@@ -1,6 +1,6 @@
 # FinDash
 
-A responsive finance dashboard UI built with React and Vite for the internship assignment. The application focuses on presenting financial activity clearly through summary cards, charts, insights, and a transaction management view, while keeping the implementation frontend-only and easy to follow.
+A responsive finance dashboard UI built with React and Vite that focuses on presenting financial activity clearly through summary cards, charts, insights, and a transaction management view.
 
 ## Live Demo
 
@@ -15,8 +15,6 @@ This project simulates a simple personal finance dashboard where users can:
 - understand monthly cashflow and spending patterns
 - switch between `Viewer` and `Admin` roles on the frontend
 - use a dark/light theme toggle
-
-The app is intentionally built with mock data and local state because the assignment does not require backend integration. The goal was to create a polished, intuitive, and responsive interface that demonstrates frontend thinking, component structure, and attention to UI detail.
 
 ## Screenshots
 
@@ -87,9 +85,7 @@ src/
   pages/
   utils/
 ```
-# ==============================
-# Setup Instructions
-# ==============================
+## Setup Instructions
 
 ```git clone https://github.com/Sanst150505/Financial_dashboard.git
 cd Financial_dashboard
@@ -98,38 +94,17 @@ npm run dev
 npm run build
 ```
 
-# ==============================
-# Notes and Assumptions
-# ==============================
+## Notes and Assumptions
 
-# - Uses mock data
-# - Frontend-only role switching
-# - INR currency formatting
-# - Demo project (not production)
+- Uses mock data
+- Frontend-only role switching
+- INR currency formatting
+- Demo project (not production)
 
-# ==============================
-# Possible Improvements
-# ==============================
+## Possible Improvements
 
-# - Add backend (API persistence)
-# - Export CSV/JSON
-# - Advanced analytics
-# - Toast notifications
-# - Unit testing
-
-# ==============================
-# Why This Meets the Assignment
-# ==============================
-
-# Covers:
-# - Dashboard
-# - Transactions
-# - Role-based UI
-# - Insights
-# - State management
-# - Responsive design
-
-# Extras:
-# - Dark/light theme
-# - Local storage
-# - Smooth UI transitions
+- Add backend (API persistence)
+- Export CSV/JSON
+- Advanced analytics
+- Toast notifications
+- Unit testing
