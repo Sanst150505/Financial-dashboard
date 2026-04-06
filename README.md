@@ -94,13 +94,6 @@ npm run dev
 npm run build
 ```
 
-## Notes and Assumptions
-
-- Uses mock data
-- Frontend-only role switching
-- INR currency formatting
-- Demo project (not production)
-
 ## Possible Improvements
 
 - Add backend (API persistence)
