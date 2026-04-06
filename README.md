@@ -87,7 +87,8 @@ src/
 ```
 ## Setup Instructions
 
-```git clone https://github.com/Sanst150505/Financial-dashboard.git
+```text
+git clone https://github.com/Sanst150505/Financial-dashboard.git
 cd Financial-dashboard
 npm install
 npm run dev
